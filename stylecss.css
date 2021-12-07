@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: rgb(160, 157, 157);
+}
+/* heeader top*/
+.header{
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+.header h1{
+    font-size: 50px;
+}
+/* style top navigetion bar*/
+.topnav{
+   overflow: hidden; 
+   background-color: rgb(17, 16, 16);
+}
+.topnav a{
+     float: left;
+     display: block;
+     color: rgb(146, 155, 155);
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;/* not underline*/
+     
+}
+/* change color clik */
+.topnav a:hover{
+    color: chocolate;
+}
+/*left and right of colunm*/
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+.rightcolumn{
+    float:left;
+    width: 25%;
+    background-color: rgb(160, 157, 157);
+    padding-left:20px;
+    
+}
+/*fakeimg*/
+.fakeimg{
+    
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+/* add card effect for atical*/
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* clear float ofter column*/
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(50, 50, 56);
+    margin-top: 20px;
+}
